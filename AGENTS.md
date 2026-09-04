@@ -7,7 +7,7 @@ This file governs work in the DaD Sample repository. It applies equally to human
 Before changing the repository:
 
 1. Read `PROJECT-VISION.md`.
-2. Read the active `TASK-*.md` file.
+2. Read the active `docs/tasks/TASK-*.md` file.
 3. Read every accepted ADR and approved specification referenced by that task.
 4. Inspect the implementation and tests affected by the change.
 
@@ -20,7 +20,7 @@ If authoritative sources disagree, stop and surface the conflict. Do not silentl
 - `PROJECT-VISION.md` defines durable purpose, scope, principles, and non-goals.
 - `docs/adr/` contains durable architectural decisions and their rationale.
 - `docs/specs/` contains approved, implementable behavior and interfaces.
-- `TASK-*.md` defines a bounded change, governing references, constraints, acceptance conditions, and completion evidence.
+- `docs/tasks/TASK-*.md` defines a bounded change, governing references, constraints, acceptance conditions, and completion evidence.
 - `src/` implements approved behavior.
 - `tests/` and repeatable checks provide evidence about the implementation.
 
