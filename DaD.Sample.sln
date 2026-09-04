@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaDSample.Api", "src\DaDSample.Api\DaDSample.Api.csproj", "{7F57DCA3-912F-4B3C-8B4A-78719C4111D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaDSample.Api.Tests", "tests\DaDSample.Api.Tests\DaDSample.Api.Tests.csproj", "{071B3E18-FEDB-4F83-BE9E-90CDBEFB7230}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F57DCA3-912F-4B3C-8B4A-78719C4111D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F57DCA3-912F-4B3C-8B4A-78719C4111D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F57DCA3-912F-4B3C-8B4A-78719C4111D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F57DCA3-912F-4B3C-8B4A-78719C4111D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{071B3E18-FEDB-4F83-BE9E-90CDBEFB7230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{071B3E18-FEDB-4F83-BE9E-90CDBEFB7230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{071B3E18-FEDB-4F83-BE9E-90CDBEFB7230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{071B3E18-FEDB-4F83-BE9E-90CDBEFB7230}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
