@@ -25,12 +25,14 @@ The repository uses a deterministic local text-analysis provider so the sample c
 .
 ├── AGENTS.md                         # Working agreement for humans and agents
 ├── PROJECT-VISION.md                 # Durable purpose, scope, and non-goals
-├── TASK-0001.md                      # Active bounded unit of work
 ├── docs/
 │   ├── adr/
 │   │   └── ADR-0001.md               # Why AI providers must be replaceable
-│   └── specs/
-│       └── SPEC-0001.md              # Implementable provider/API contract
+│   ├── specs/
+│   │   └── SPEC-0001.md              # Implementable provider/API contract
+│   └── tasks/
+│       ├── TASK-0001.md              # First vertical-slice implementation
+│       └── TASK-0002.md              # DaD task-path convention alignment
 ├── src/
 │   └── DaDSample.Api/
 │       ├── Features/Summarization/   # HTTP behavior for summarization
